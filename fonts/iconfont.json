@@ -1,0 +1,65 @@
+{
+  "id": "2195012",
+  "name": "小麦云盘",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2865936",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "4689626",
+      "name": "安全",
+      "font_class": "17",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "11467493",
+      "name": "安全",
+      "font_class": "anquan8",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "13828551",
+      "name": "安全3",
+      "font_class": "anquan1",
+      "unicode": "e79b",
+      "unicode_decimal": 59291
+    },
+    {
+      "icon_id": "10836212",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12907116",
+      "name": "头像",
+      "font_class": "user",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "14580387",
+      "name": "头像",
+      "font_class": "touxiang1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14852121",
+      "name": "头像",
+      "font_class": "touxiang-",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
