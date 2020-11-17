@@ -1,0 +1,67 @@
+em,
+i,
+h1,
+h2,
+h3,
+h4,
+ul,
+dd,
+dl,
+p,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input,
+button {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    height: 0;
+    clear: both;
+}
+
+body {
+    font-size: 14px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}

@@ -12,12 +12,31 @@ function check_login() {
     let form=document.forms[0].elements["email"]
     var emial_info=form.value
     //本地验证邮箱
-    // alert(email_list.indexOf("@"))
-    
-    // if (){
-    
+    //^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$
+    var reg = new RegExp("^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$", "g")
+    var final = reg.test(emial_info)
+    if (final != true) {
+        // 匹配失败时，生成提示信息
 
-    // }
+        //先将其他提示信息向下移动80px,再添加提示信息
+        //遍历所有类名为woring的html，然后将woring的定位修改为原来的top值+80px
+        var woringclass = document.getElementsByClassName("woring")
+        woringclass.style.top=`(parseInt(woringclass.style.top)+80+"px")`
+
+        //在页面的右上角生成报警窗口
+        var woring_info=`<div class="woring">
+                            <span class="iconfont icon-anquan1"></span>
+                            <div>
+                                <h3>登录失败</h3>
+                                <h4>用户名或密码错误</h4>
+                            </div>
+                        </div >`
+        document.getElementById("tops").insertBefore(woring_info,null)
+        alert("匹配失败")
+    } else {
+        // 匹配成功时，将数据发送至服务器，再接受由服务器发送到客户端的文件
+        
+    }
 
 
    /*匹配从@开始到结束的字符*/
@@ -33,7 +52,7 @@ function check_login() {
 
 
     /*匹配失败,生成报警框*/
-   alert("匹配失败")
+
 
 
 

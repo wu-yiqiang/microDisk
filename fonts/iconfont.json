@@ -6,6 +6,69 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "8656210",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "10527196",
+      "name": "home",
+      "font_class": "icon_home",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11367497",
+      "name": "home",
+      "font_class": "menu-home-normal",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "11376099",
+      "name": "home",
+      "font_class": "home1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "12213471",
+      "name": "home",
+      "font_class": "icon_home1",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "13149062",
+      "name": "home",
+      "font_class": "sanguohome",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14801902",
+      "name": "home",
+      "font_class": "sanguohome1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "16913823",
+      "name": "home",
+      "font_class": "home11",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "16913847",
+      "name": "home",
+      "font_class": "Home",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
       "icon_id": "4328874",
       "name": "倒三角",
       "font_class": "choose",
