@@ -2,7 +2,7 @@
 
 /*报警部分*/
 .top_part .woring {
-    display: none;
+    display: block;
     position: fixed;
     top:10px;
     right: 10px;

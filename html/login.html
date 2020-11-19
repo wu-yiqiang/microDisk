@@ -11,19 +11,12 @@
 	<link rel="stylesheet" href="../css/login.css">
 	<!--引入字体图标-->
 	<link rel="stylesheet" href="../fonts/iconfont.css">
-	<script src="../js/login.js"></script>
+
 </head>
 <body>
 
 	<div class="top_part">
-		<!--<div class="woring">
-			<span class="iconfont icon-anquan1"></span>
-			<div>
-				<h3>登录失败</h3>
-				<h4>用户名或密码错误</h4>
-			</div>
-		</div>
--->
+
 
 		<div class="topbar w" id="tops">
 			<div class="logo"></div>
@@ -52,7 +45,7 @@
 						<div>
 							<input type="password" name="pws">
 						</div>
-						<button type="submit" onclick="check_login()">登录</button>
+						<button type="submit" id="buttons">登录</button>
 					</form>
 
 					<h3>
@@ -88,7 +81,8 @@
 
 	</div>
 
-
-
+	<!-- 引入外部文件 -->
+	<script src="../js/jquery-3.5.1.js"></script>
+	<script src="../js/login.js"></script>
 </body>
 </html>
